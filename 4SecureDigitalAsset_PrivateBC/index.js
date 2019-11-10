@@ -59,7 +59,7 @@ router.route('/requestValidation').post((req, res) => {
 });
 
 // ====================================================
-// Post http://localhost:8000/message-signature/validate
+// Post http://localhost:8000/message-signature-validate
 // where body contains a json object { "address": "<new address>", 
 //                                     "signature": "<signature>" }
 // ====================================================
